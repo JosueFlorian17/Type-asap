@@ -1,0 +1,38 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    align-content: center;
+
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+    text-align: center;
+}
+
+.container{
+    width: 35%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+}
+
+.text-to-type{
+    color: brown;
+    border-radius: 10px;
+    border-color: rgb(18, 99, 99);
+    border-width: 5px;
+    border-style: solid;
+    padding: 10px;
+    width: 90%;
+}
+
+.highlight {
+	background-color: yellow;
+}
+
+.error {
+	background-color: lightcoral;
+	border-color: red;
+}
